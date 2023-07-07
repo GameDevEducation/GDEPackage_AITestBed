@@ -16,5 +16,12 @@
     "AI",
     "Testbed",
     "Utility"
+  ],
+  "samples": [
+    {
+      "displayName": "AI Test Bed",
+      "description": "Code and content for the AI Test Bed",
+      "path": "Samples~/AITestBed"
+    }
   ]
 }
