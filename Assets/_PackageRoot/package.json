@@ -4,17 +4,24 @@
   "displayName": "AI Test Bed",
   "description": "Test Bed for developing AI",
   "unity": "2022.3",
+  "dependencies": {
+    "com.unity.ai.navigation": "1.1.4",
+    "com.unity.cinemachine": "2.9.7",
+    "com.unity.inputsystem": "1.6.1",
+    "com.unity.timeline": "1.7.5",
+    "com.unity.textmeshpro": "3.0.6",
+    "com.unity.probuilder": "5.0.7"
+   },
   "keywords": [
     "AI",
     "Testbed",
     "Utility"
   ],
-  "dependencies": {
-    "com.unity.ai.navigation": "1.1.4",
-    "com.unity.cinemachine": "2.9.7",
-    "com.unity.inputsystem": "1.6.1",
-    "com.unity.timeline", "1.7.5",
-    "com.unity.textmeshpro", "3.0.6",
-    "com.unity.probuilder", "5.0.7"
-   }
+  "samples": [
+    {
+      "displayName": "AI Test Bed",
+      "description": "Code and content for the AI Test Bed",
+      "path": "Samples~/AITestBed"
+    }
+  ]
 }
