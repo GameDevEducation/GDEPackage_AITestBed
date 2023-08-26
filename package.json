@@ -1,8 +1,8 @@
 {
   "name": "com.gamedeveducation.aitestbed",
-  "version": "1.0.0",
-  "displayName": "AI Test Bed",
-  "description": "Test Bed for developing AI",
+  "version": "1.0.1",
+  "displayName": "AI Testbed",
+  "description": "Testbed for developing AI",
   "unity": "2022.3",
   "dependencies": {
     "com.unity.ai.navigation": "1.1.4",
@@ -19,9 +19,9 @@
   ],
   "samples": [
     {
-      "displayName": "AI Test Bed",
-      "description": "Code and content for the AI Test Bed",
-      "path": "Samples~/AITestBed"
+      "displayName": "AI Testbed Demo Scenes",
+      "description": "Demonstration scenes for the AI Testbed",
+      "path": "Samples~/AITestbedDemoScenes"
     }
   ]
 }

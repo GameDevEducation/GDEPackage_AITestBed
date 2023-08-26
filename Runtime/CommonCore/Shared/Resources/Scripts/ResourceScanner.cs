@@ -10,8 +10,8 @@ public class ResourceScanner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AllResources = new List<ResourceSource>(FindObjectsOfType<ResourceSource>());
-        AllContainers = new List<ResourceContainer>(FindObjectsOfType<ResourceContainer>());
+        AllResources = new List<ResourceSource>(FindObjectsByType<ResourceSource>(FindObjectsSortMode.None));
+        AllContainers = new List<ResourceContainer>(FindObjectsByType<ResourceContainer>(FindObjectsSortMode.None));
     }
 
     public ResourceSource FindNearestResourceOfType(Resources.EType type)
