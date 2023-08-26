@@ -1,6 +1,6 @@
 {
   "name": "com.gamedeveducation.aitestbed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "AI Testbed",
   "description": "Testbed for developing AI",
   "unity": "2022.3",
